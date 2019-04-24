@@ -400,7 +400,7 @@ class Example(QMainWindow):
 		self.genRevertAct = QAction( '&Revert', self)
 		self.genRevertAct.triggered.connect(self.clickMethodRevert)
 		
-		self.nodeLabel = QLabel('Number of nodes:')
+		self.nodeLabel = QLabel('Number of leaf_nodes:')
 		self.nodeText = QPlainTextEdit('100')
 		self.nodeText.setFixedSize(50,28)
 		self.bfLabel = QLabel('Branching Factor:')
